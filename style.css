@@ -22,11 +22,36 @@ body {
 .header .naviList .naviItem {
   margin-left: 30px;
   font-weight: bold;
+  filter: drop-shadow(0px 0px 5px #B45F04);
 }
 .header .site-title {
   text-align: center;
   top: 45%;
+  left: 0;
+  right: 0;
   position: absolute;
+  filter: drop-shadow(0px 0px 10px #c3c3c3);
+}
+
+.fixedBg {
+  width: 100%;
+  height: 300px;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.menu-img {
+  margin-top: 20px;
+  background-image: url(img/menu.jpeg);
+}
+
+.sec-title {
+  color: white;
+  text-align: center;
+  line-height: 300px;
+  font-size: 4.5rem;
+  filter: drop-shadow(0px 0px 10px #c3c3c3);
 }
 
 /*# sourceMappingURL=style.css.map */
