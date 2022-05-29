@@ -1,0 +1,32 @@
+body {
+  font-family: "Helvetica Neue", "Arial", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Meiryo", sans-serif;
+  font-size: 0.9rem;
+  line-height: 1.7;
+}
+
+.header {
+  width: 100%;
+  min-height: 100vh;
+  background-image: url(img/main.jpeg);
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  padding: 20px 40px;
+  position: relative;
+  color: white;
+}
+.header .naviList {
+  display: flex;
+  justify-content: right;
+}
+.header .naviList .naviItem {
+  margin-left: 30px;
+  font-weight: bold;
+}
+.header .site-title {
+  text-align: center;
+  top: 45%;
+  position: absolute;
+}
+
+/*# sourceMappingURL=style.css.map */
