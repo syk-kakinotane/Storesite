@@ -28,6 +28,9 @@ img {
   font-weight: bold;
   filter: drop-shadow(0px 0px 5px #B45F04);
 }
+.header .naviList .naviItem:hover {
+  color: red;
+}
 .header .site-title {
   text-align: center;
   top: 45%;
@@ -48,12 +51,16 @@ img {
 .menu-img {
   margin-top: 20px;
   background-image: url(img/menu.jpeg);
+  position: relative;
 }
 
 .sec-title {
   color: white;
   text-align: center;
-  line-height: 300px;
+  top: 30%;
+  left: 0;
+  right: 0;
+  position: absolute;
   font-size: 4.5rem;
   filter: drop-shadow(0px 0px 10px #c3c3c3);
 }
@@ -62,6 +69,7 @@ img {
   max-width: 1000px;
   padding: 90px 16px 150px 16px;
   margin: 0 auto;
+  text-align: center;
 }
 
 .menuContainer {
@@ -70,7 +78,6 @@ img {
 .menuContainer .menuItem {
   width: 50%;
   padding: 0 45px;
-  text-align: center;
 }
 .menuContainer .menuItem:first-child {
   border-right: 1px solid #333333;
@@ -84,6 +91,7 @@ img {
   border-bottom: 1px dotted #333333;
   margin-bottom: 25px;
   text-align: left;
+  font-weight: normal;
 }
 .menuContainer .menuItem .menuitemList .menuPrice {
   width: 15%;
@@ -101,6 +109,25 @@ img {
   margin-bottom: 55px;
 }
 
+.about-img {
+  margin-top: 20px;
+  background-image: url(img/about.jpeg);
+  position: relative;
+}
+
+.aboutList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+.aboutList .aboutItem {
+  width: 50%;
+  text-align: left;
+  line-height: 2;
+  padding: 10px;
+}
+
 /*-------------------------------------------
 SP
 -------------------------------------------*/
@@ -115,8 +142,8 @@ SP
   }
 
   .sec-title {
-    line-height: 94px;
     top: 26%;
+    font-size: 2rem;
   }
 
   .menuContainer {
